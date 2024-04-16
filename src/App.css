@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  background-color: white;
+  border-bottom: 0.1px solid rgb(238, 232, 232);
+  font-size: 17px;
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+img {
+  width: 90px;
+  height: 90px;
+  margin-right: 40px;
+}
+ul li {
+  list-style: none;
+  display: inline-flex;
+  cursor: pointer;
+  margin-top: 10px;
+  /* outline: 1px solid; */
+  position: relative;
+  left: 100px;
+}
+a {
+  text-decoration: none;
+  padding: 17px 28px;
+  color: rgb(167, 165, 165);
+  border-radius: 100px;
+}
+li .active {
+  font-weight: bold;
+  color: rgb(44, 44, 44);
+}
+li a:hover:not(.active) {
+  background-color: rgb(248, 245, 245);
+  color: rgb(36, 36, 36);
+}
+.end-bar {
+  display: flex;
+  height: 60px;
+  margin-top: 10px;
+}
+.fa-bars,
+.fa-user-circle,
+.fa-globe {
+  font-size: 20px;
+  padding: 10px;
+}
+.fa-globe,
+.end-bar {
+  margin-right: 20px;
+}
+.fa-bars {
+  position: relative;
+  bottom: 2px;
+}
+.fa-globe {
+  padding-top: 10px;
+  position: relative;
+  top: 10px;
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+  /* padding-bottom: 40px; */
+  text-align: center;
+}
+.fa-globe:hover {
+  background-color: rgb(248, 245, 245);
+  color: rgb(21, 20, 20);
+}
+.fa-user-circle {
+  font-size: 30px;
+}
+.end-bar p {
+  font-size: 15px;
+  padding-top: 20px;
+  font-weight: bold;
+  margin-right: 1px;
+  padding: 1px 25px;
+  padding-top: 20px;
+  border-radius: 100px;
+}
+.end-bar p:hover {
+  background-color: rgb(248, 245, 245);
+  color: rgb(36, 36, 36);
+}
+.end-bar button {
+  border-radius: 100px;
+  border: solid 1px  rgb(238, 232, 232);
+  background-color: white;
+  outline: none;
+  height: 50px;
+}
+.end-bar button:hover {
+  box-shadow: 0 3px 3px 0 rgb(201, 199, 199), 0 1px 1px 0 rgb(201, 199, 199);
+}
+.searchbar {
+  width: 59%;
+  height: 70px;
+  display: flex;
+  position: relative;
+  bottom: 25px;
+  box-shadow: 0 4px 4px 0 rgb(201, 199, 199), 0 3px 5px 0 rgb(201, 199, 199);
+  outline: 1px solid rgb(238, 232, 232);
+  border-radius: 100px;
+  margin: auto;
+}
+.searchbar button{
+  border-radius: 100px;
+  background-color: white;
+  outline: none;
+  border: none;
+  text-align: start;
+  padding-left: 35px;
+}
+.searchbar span{
+  color:  rgb(158, 157, 157);
+  font-size: 15px;
+}
+.searchbar button:hover{
+  background-color: rgb(235, 235, 235);
+}
+.check-in{
+  width: 35%;
+  height: 100%;
+}
+.check-out{
+  width: 18%;
+}
+#where-btn,#in{
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+#where-btn,#in:hover{
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+#who-btn{
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+}
+#who-btn:hover{
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+/* #in{
+
+} */
