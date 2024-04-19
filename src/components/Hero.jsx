@@ -1,7 +1,7 @@
-import React from "react";
+    import React from "react";
 
 const Hero = ()=>{
-    return(
+urn(
         <div className="card">
             <img src="../public/food.jpg" alt/>
             <h4>Tulbagh, South Africa</h4>
