@@ -1,22 +1,13 @@
-// import React from "react";
+import React from "react";
 
-// function Hero(props) {
-//   let items = [
-//     {
-//       name: "Emmanuella",
-//       class: "intermediate",
-//       date: 1999,
-//     },
-//   ];
-//   return (
-//     <>
-//       <div>
-//         {items.map((item) => {
-//           return item;
-//         })}
-//       </div>
-//     </>
-//   );
-// }
-
-// export default Hero;
+const Hero = ()=>{
+    return(
+        <div className="card">
+            <img src="../public/food.jpg" alt/>
+            <h4>Tulbagh, South Africa</h4>
+            <p style={{color: 'grey'}}>5 nights . May 26-31</p>
+            <p><a href="#">$909 total before taxes</a></p>
+        </div>
+    )
+}
+export default Hero;
