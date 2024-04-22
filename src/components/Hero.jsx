@@ -1,13 +1,23 @@
-    import React from "react";
+import React from "react";
+import '../Hero.css'
 
-const Hero = ()=>{
-urn(
-        <div className="card">
-            <img src="../public/food.jpg" alt/>
-            <h4>Tulbagh, South Africa</h4>
-            <p style={{color: 'grey'}}>5 nights . May 26-31</p>
-            <p><a href="#">$909 total before taxes</a></p>
-        </div>
-    )
-}
+//challenge: map through components
+//algorithm:
+//one: create a function, pass in props for the image,title and descripton
+function Hero({ imageUrl, title, description }){
+  return (
+    
+      <div className="Blogcard">
+      {/* return the elements with the props. */}
+      <img src={imageUrl} alt="Hero" />
+      <h4>{title}</h4>
+      <p>{description}</p>
+      <br />
+      <br />
+      <br />
+    </div>
+  
+  );
+};
+
 export default Hero;

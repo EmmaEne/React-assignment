@@ -1,0 +1,11 @@
+.Blogcard {
+  display: inline-block;
+  margin-left: 23px;
+  /* border: 1px solid; */
+  text-align: left;
+}
+.Blogcard img {
+  width: 17rem;
+  height: 15rem;
+  border-radius: 10px;
+}

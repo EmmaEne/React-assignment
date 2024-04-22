@@ -8,12 +8,12 @@ function Navbar() {
     <>
       <nav>
         <div id="container">
-          <img src="../public/Airbnb.png" alt="logo" />
+          <img src="../Airbnb.png" alt="logo" />
 
           <ul>
             <li>
               <a href="#" className="active">
-                Stays
+               Stays
               </a>
             </li>
             <li>
@@ -49,6 +49,7 @@ function Navbar() {
             <p>Who</p>
             <span>Add guest</span>
           </button>
+          <button className="searchBtn" style={{ backgroundColor: 'rgb(255, 0, 55)'}}><i className="fa fa-search"></i></button>
         </div>
       </nav>
     </>
